@@ -1,0 +1,7 @@
+version: "3"
+services: 
+    API : 
+        image: marwan17705/workshopdocker
+        ports: 
+            - "5001":"5001"
+        container_name: wang
